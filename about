@@ -1,0 +1,36 @@
+<!-- HEADER SECTION -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF00,100:003300&height=200&section=header&text=BABLERPAUL&fontSize=70&fontColor=00FF00&animation=twinkling&desc=SYS_ADMIN%20//%20SEC_ENG%20//%20YOUR_PROVIDER" />
+</div>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/Status-ONLINE-00FF00?style=for-the-badge&logo=status&logoColor=white)](#)
+[![Clearance](https://img.shields.io/badge/Clearance-LEVEL_5-FF0000?style=for-the-badge&logo=shield&logoColor=white)](#)
+[![Origin](https://img.shields.io/badge/Node-EARTH-blue?style=for-the-badge&logo=earth&logoColor=white)](#)
+
+*“Feels good to help.....”* — *Initiating support protocols...*
+
+</div>
+
+<br>
+
+<!-- TERMINAL / ABOUT SECTION -->
+## 💻 `TERMINAL // SYSTEM_INFO`
+
+```rust
+// >> Executing profile_fetch.rs...
+// >> Compiling... done.
+
+fn main() {
+    let target = User {
+        name: String::from("Paul Bäumer"),
+        alias: String::from("bablerpaul"),
+        role: String::from("Cybersecurity Engineer & Systems Provider"),
+        status: String::from("Active - Monitoring the Wire"),
+        primary_directive: String::from("Secure the infrastructure. Provide the solutions."),
+    };
+
+    println!(">>> USER IDENTIFIED: {}", target.name);
+    println!(">>> DIRECTIVE: {}", target.primary_directive);
+}
