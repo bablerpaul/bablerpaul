@@ -1,6 +1,6 @@
 <div align="center">
 
-# PAUL BÄUMER
+# PAUL
 
 ### Security Engineering · Applied Cryptography · Zero-Trust Systems
 
