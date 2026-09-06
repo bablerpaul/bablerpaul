@@ -2,88 +2,54 @@
 
 # PAUL BÄUMER
 
-### Security Engineering · Cryptography · Linux
+### Security Engineering · Applied Cryptography · Zero-Trust Systems
 
 </div>
 
 ---
 
 > *"Prometheus stole fire from the gods and gave it to man.*
->
 > *For this he was tortured for eternity."*
 
 ---
 
-## Focus
+## Featured Repositories
 
-<table>
-<tr>
-<td valign="top" width="33%">
+### [Kyllang](https://github.com/bablerpaul/Kyllang)
+**Zero-Trust Blockchain Medical Records System for Cryptographic Patient Sovereignty**
 
-### Cryptography
+Re-architects electronic medical records by shifting control from centralized institutions to the patient. Every record is encrypted, anchored on-chain for tamper-proof authenticity, and accessible only via explicit cryptographic delegation.
 
-- AES-GCM
-- TLS 1.3
-- PKI
-- Key Management
+- Patient-controlled, real-time access delegation and revocation
+- On-chain anchoring of record metadata and cryptographic hashes
+- Decentralized storage integration (IPFS) to eliminate centralized data honeypots
+- Zero-knowledge proof verification of medical certificates without exposing patient history
+- Break-glass emergency access mode with full on-chain audit trails
+- Cryptographic primitives: Zero-Knowledge Proofs, TweetNaCl authenticated encryption
 
-</td>
+### [IMAZER](https://github.com/bablerpaul/IMAZER)
+**Forensic Tool for Metadata Extraction**
 
-<td valign="top" width="33%">
+A Python-based digital forensics tool that extracts metadata from video and image files (MP4, MOV, AVI, JPEG, PNG, and more) using FFmpeg and ExifTool, exporting structured results to JSON for downstream analysis.
 
-### Web Security
+### [HashCii](https://github.com/bablerpaul/HashCii)
+**Zero-Trust, Client-Side Cryptographic Toolkit**
 
-- SSRF
-- IDOR
-- SQL Injection
-- JWT Integrity
+An integrity-checking toolkit built with React and Vite, designed so all cryptographic operations happen client-side — no server ever handles the underlying data.
 
-</td>
-
-<td valign="top" width="33%">
-
-### Linux
-
-- Bare Metal
-- Kernel Hardening
-- Namespaces
-- Capabilities
-
-</td>
-</tr>
-</table>
+### [ecoquest](https://github.com/bablerpaul/ecoquest)
+A Flutter application project.
 
 ---
 
 ## Philosophy
 
-Security is an architectural property, not a feature.
-
-Every system should be:
+Security is an architectural property, not a feature. Every system should be:
 
 - Observable
 - Deterministic
 - Hardened
 - Minimal
-
----
-
-## Featured Projects
-
-| Repository | Description |
-|------------|-------------|
-| **Project One** | Applied Cryptography |
-| **Project Two** | Web Security Research |
-| **Project Three** | Linux Tooling |
-
----
-
-## Current Work
-
-- Modern cryptographic protocols
-- Secure authentication
-- Linux internals
-- Offensive security research
 
 ---
 
